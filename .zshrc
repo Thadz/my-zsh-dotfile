@@ -45,7 +45,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-DEFAULT_USER=zhang@thinkpad-R400
+DEFAULT_USER=zhang@thinkpad-t400s
 
 alias ec="emacsclient -n"
 alias ecc="emacsclient -n -c"
@@ -53,3 +53,5 @@ alias enw="emacs -nw"
 alias eq="emacs -nw -Q"
 alias rm='mv --target-directory ~/.local/share/Trash/files'
 alias mnd="matlab -nodisplay"
+
+source ~/.profile
